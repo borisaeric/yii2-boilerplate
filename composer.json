@@ -1,10 +1,24 @@
 {
     "name": "borisaeric/yii2-boilerplate",
     "description": "Yii 2 Boilerplate with Vagrant borisaeric/2ambox box",
-    "keywords": ["yii2", "boilerplate", "2ambox", "vagrant"],
-    "homepage": "http://www.yiiframework.com/",
-    "type": "metapackage",
+    "keywords": [
+        "yii2",
+        "boilerplate",
+        "2ambox",
+        "vagrant",
+        "open source"
+    ],
+    "homepage": "https://github.com/borisaeric/yii2-boilerplate.git",
+    "type": "project",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "borisaeric",
+            "email": "borisa123@hotmail.com",
+            "homepage": "https://borisaeric.io",
+            "role": "Developer"
+        }
+    ],
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.2",
@@ -31,6 +45,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/borisaeric/yii2-boilerplate.git"
         }
     ]
 }

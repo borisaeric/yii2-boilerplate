@@ -5,10 +5,7 @@ source $HOME/.nvm/nvm.sh
 cd /var/www
 
 nvm install >/dev/null 2>&1
-nvm use
-nvm alias default current
-
-npm ci
-npx gulp build
+nvm install v12.6.0
+nvm alias default v12.6.0
 
 echo 'END ----> Configuring node.js <----'
